@@ -1,31 +1,25 @@
 # 个人的C语言学习笔记
-以下为生成的模板 毫无意义
 ---
-[项目徽章，例如构建状态、代码覆盖率等]
 
-[项目简介，简要介绍项目的功能和用途]
-
-## 目录
+## 目录(待更新)
 
 - [简介](#简介)
-- [安装](#安装)
-- [使用](#使用)
-- [示例](#示例)
-- [API 文档](#api-文档)
-- [贡献](#贡献)
-- [许可证](#许可证)
-- [联系方式](#联系方式)
+- [环境配置(Windows)](#环境配置windows)
 
 ## 简介
 
-[详细介绍项目的功能、特性和解决的问题]
+根据 [一小时C语言教程](https://www.bilibili.com/video/BV1Q142147VL?spm_id_from=333.788.videopod.sections&vd_source=0289a35d07c2faa0bf147dfa63825b87) 记录的代码和笔记
 
-## 安装
-
-[提供详细的安装步骤，包括依赖项和环境配置]
-
-```bash
-# 例如：
-git clone <仓库地址>
-cd <项目目录>
-npm install # 或 yarn install
+## 环境配置(Windows)
+系统环境使用 [Scoop](https://github.com/ScoopInstaller/Scoop) 下载
+1. 解释器
+```Powershell
+scoop install mingw
+```
+2. 编辑器(VSCode)
+```Powershell
+scoop install vscode
+```
+- 编辑器插件: 
+    + [C/C++](https://github.com/microsoft/vscode-cpptools)
+    + [Code Runner](https://github.com/formulahendry/vscode-code-runner)
